@@ -1,0 +1,101 @@
+body {
+  background-color: #cce7ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #004080;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.expense-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.expense-form input {
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #007acc;
+  width: 180px;
+  transition: border-color 0.3s ease;
+}
+
+.expense-form input:focus {
+  border-color: #005fa3;
+  outline: none;
+}
+
+.expense-form button {
+  background-color: #007acc;
+  color: white;
+  font-weight: 600;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.expense-form button:hover {
+  background-color: #005fa3;
+}
+
+.expenses-list {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #e6f0ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 120, 215, 0.3);
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.expense-info {
+  display: flex;
+  gap: 30px;
+}
+
+.expense-title {
+  color: #004080;
+}
+
+.expense-date {
+  color: #666;
+  font-size: 15px;
+}
+
+.amount-green {
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+.amount-yellow {
+  color: #f9a825;
+  font-weight: 700;
+}
+
+.amount-red {
+  color: #c62828;
+  font-weight: 700;
+}
